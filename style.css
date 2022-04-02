@@ -31,7 +31,7 @@ body{
 }
 
 h1{
-    font-size: 24px;
+    font-size: 28px;
     color: #eff4f5;
     text-transform: capitalize;
 }
@@ -62,13 +62,13 @@ img[alt]{
 
 h2,
 .heart{
-    font-size: 24px;
+    font-size: 28px;
     color: #e65656;
 }
 
 h2{
-    color: #c99d9d;
-    text-shadow: 2px 0 5px #d71717, -2px 0 5px #d70a0a;
+    color: #000;
+    text-shadow: 2px 0 5px #fff, -2px 0 5px #fff, 5px -5px 5px #fff;
     letter-spacing: 1px;
 }
 
