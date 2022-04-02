@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>My Girlfriend</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+  <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
+</head>
+
+<body id="cv">
+<div class="cv">
+  <div class="container">
+    <div class="msg"></div>
+    <h1 class="inline typing2"></h1>
+    <button id="btn" class="hide">Show Message &#9658;</button>
+    <div class="img-con hide">
+      <h2 class="inline typing"><h2 class="heart">♥♥♥</h2></h2>
+      <img id="kalog" src="kalog/image1.jpeg" alt="error loading images">
+    </div>
+    <audio id="audio" loop>
+        <!-- <source src="audio/Favorite Girl.mp3" type="audio/mp3"> -->
+        <source src="audio/Tahanan.mp3" type="audio/mp3">
+    </audio>
+    <br>
+    <button id="stopbtn" class="stop hide" onclick="stop()">Stop &#9611;</button>
+  </div>
+</div>
+
+
+  <script src="script.js"></script>
+  <script>
+    var audio = document.getElementById("audio");
+    audio.addEventListener('ended', () => {
+        audio.pause();
+        audio.src = "audio/Tahanan.mp3";
+        audio.load();
+        audio.play();
+    });
+  </script>
+</body>
+
+</html>

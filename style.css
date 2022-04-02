@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: cursive;
+    background: #0ccee7;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    transition: all 1s ease;
+}
+
+.cv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0ccde7b4;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+.container{
+    text-align: center;
+    width: 80%;
+    height: auto;
+}
+
+h1{
+    font-size: 18px;
+    color: #eff4f5;
+    text-transform: capitalize;
+}
+
+.img-con{
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    height: auto;
+}
+
+img{
+    display: block;
+    margin: 10px auto;
+    border-radius: 20%;
+    width: 200px;
+    height: 230px;
+    object-fit: cover;
+    box-shadow: 2px 0 5px #86e7f4, -2px 0 5px #f3e7e7, 0 2px 5px #e3cfcf, 0 -2px 5px #d2c6c6;
+}
+
+img[alt]{
+    font-size: 20px;
+    color: #fff;
+    top: 50%;
+    text-align: center;
+}
+
+h2,
+.heart{
+    font-size: 16px;
+    color: #e65656;
+}
+
+.inline{
+    display: inline-block;
+}
+
+span{
+ 
+    color: #86e7f4;
+}
+
+@keyframes blink {
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+   100% {opacity: 1;}
+}
+
+@-webkit-keyframes blink {
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+   100% {opacity: 1;}
+}
+
+@-moz-keyframes blink {
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+   100% {opacity: 1;}
+}
+
+.hide{
+    display: none;
+    transition: all .6s ease-in-out;
+}
+
+.show{
+    display: block;
+    transition: all .6s ease-in-out;
+}
+
+button{
+    width: 200px;
+    display: block;
+    padding: 10px 20px;
+    margin: 0 auto;
+    color: white;
+    background: #86e7f4;
+    border: 2px solid #86e7f4;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-transform: capitalize;
+    outline: none;
+    transition: all .4s ease;
+}
+
+button:hover{
+    transform: scale(1.05);
+    background: none;
+}
+
+
+.msg{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    color: #86e7f4;
+    text-shadow: 2px 0 5px #9e7979, -2px 0 5px #c36e6e, 0 2px 5px #302e2e, 0 -2px 5px #ffffff, 1px 0 5px #9b8282;
+}
