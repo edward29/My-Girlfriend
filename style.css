@@ -4,7 +4,7 @@
 }
 
 body{
-    font-family: cursive;
+    font-family: cursive, Arial, Helvetica, sans-serif;
     background: #0ccee7;
     background-repeat: no-repeat;
     background-position: center;
@@ -31,7 +31,7 @@ body{
 }
 
 h1{
-    font-size: 18px;
+    font-size: 24px;
     color: #eff4f5;
     text-transform: capitalize;
 }
@@ -62,7 +62,7 @@ img[alt]{
 
 h2,
 .heart{
-    font-size: 16px;
+    font-size: 24px;
     color: #e65656;
 }
 
