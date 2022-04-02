@@ -66,6 +66,12 @@ h2,
     color: #e65656;
 }
 
+h2{
+    color: #c99d9d;
+    text-shadow: 2px 0 5px #d71717, -2px 0 5px #d70a0a;
+    letter-spacing: 1px;
+}
+
 .inline{
     display: inline-block;
 }
@@ -118,6 +124,7 @@ button{
     cursor: pointer;
     text-transform: capitalize;
     outline: none;
+    text-shadow: 2px 0 5px #9e7979, -2px 0 5px #c36e6e, 0 2px 5px #302e2e, 0 -2px 5px #ffffff, 1px 0 5px #9b8282;
     transition: all .4s ease;
 }
 
