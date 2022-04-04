@@ -124,7 +124,7 @@ button{
     cursor: pointer;
     text-transform: capitalize;
     outline: none;
-    text-shadow: 2px 0 5px #decdcd, -2px 0 5px #c3a6a6, 0 2px 5px #d5bfbf, 0 -2px 5px #e6d6d6, 1px 0 5px #f5c9c9;
+    text-shadow: 2px 0 5px #000000, -2px 0 5px #e5dddd;
     transition: all .4s ease;
 }
 
