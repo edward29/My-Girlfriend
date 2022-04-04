@@ -7,7 +7,7 @@ window.addEventListener('load', () => {
     var count = 0;
 
     // alert
-    const q = prompt("Do you want to enter?\n(type \"yes\" if you want  \"no\" if you don't)");
+    const q = prompt("Do you want to enter?\n(type \"yes\" if you want  \"no\" if you don't)", "Yes Or No");
 
     
     if (q.toLowerCase() === 'yes') {
