@@ -139,5 +139,5 @@ button:hover{
     letter-spacing: 2px;
     word-spacing: 5px;
     color: #86e7f4;
-    text-shadow: 2px 0 5px #9e7979, -2px 0 5px #c36e6e, 0 2px 5px #302e2e, 0 -2px 5px #ffffff, 1px 0 5px #9b8282;
+    text-shadow: 2px 0 5px #9e7979, -2px 0 5px #c36e6e, 0 2px 5px #302e2e;
 }

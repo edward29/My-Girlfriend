@@ -5,7 +5,10 @@ window.addEventListener('load', () => {
     const stopBtn = document.querySelector("#stopbtn");
     var audio = document.querySelector('#audio');
     var count = 0;
-    
+
+
+    // alert
+    alert('Welcome To my Simple website');
     const q = prompt("Do you want to enter?\n(type \"yes\" if you want  \"no\" if you don't)");
 
     
@@ -119,6 +122,7 @@ window.addEventListener('load', () => {
             btn.innerHTML = "Show Message &#9658;";
         });
     } else {
+        alert("Try to Refresh if you want to see my Website and type in the question \"Yes\"")
         document.querySelector(".msg").innerHTML = "<h4>Unfortunately, this page was not able to be loaded,<br/>still Thank you for taking the time to visit my simple webpage.</h4>";
         return false;
     }
