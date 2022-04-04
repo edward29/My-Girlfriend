@@ -5,6 +5,8 @@ window.addEventListener('load', () => {
     const stopBtn = document.querySelector("#stopbtn");
     var audio = document.querySelector('#audio');
     var count = 0;
+
+    // alert
     const q = prompt("Do you want to enter?\n(type \"yes\" if you want  \"no\" if you don't)");
 
     
