@@ -21,7 +21,6 @@
       <img id="kalog" src="kalog/image1.jpeg" alt="error loading images">
     </div>
     <audio id="audio" loop>
-        <!-- <source src="audio/Favorite Girl.mp3" type="audio/mp3"> -->
         <source src="audio/Tahanan.mp3" type="audio/mp3">
     </audio>
     <br>
@@ -31,15 +30,6 @@
 
 
   <script src="script.js"></script>
-  <script>
-    var audio = document.getElementById("audio");
-    audio.addEventListener('ended', () => {
-        audio.pause();
-        audio.src = "audio/Tahanan.mp3";
-        audio.load();
-        audio.play();
-    });
-  </script>
 </body>
 
 </html>
