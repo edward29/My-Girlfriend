@@ -47,8 +47,8 @@ img{
     display: block;
     margin: 10px auto;
     border-radius: 20%;
-    width: 200px;
-    height: 230px;
+    width: 250px;
+    height: 300px;
     object-fit: cover;
     box-shadow: 2px 0 5px #86e7f4, -2px 0 5px #f3e7e7, 0 2px 5px #e3cfcf, 0 -2px 5px #d2c6c6;
 }
@@ -124,7 +124,7 @@ button{
     cursor: pointer;
     text-transform: capitalize;
     outline: none;
-    text-shadow: 2px 0 5px #9e7979, -2px 0 5px #c36e6e, 0 2px 5px #302e2e, 0 -2px 5px #ffffff, 1px 0 5px #9b8282;
+    text-shadow: 2px 0 5px #decdcd, -2px 0 5px #c3a6a6, 0 2px 5px #d5bfbf, 0 -2px 5px #e6d6d6, 1px 0 5px #f5c9c9;
     transition: all .4s ease;
 }
 
