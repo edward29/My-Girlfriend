@@ -124,7 +124,7 @@ button{
     cursor: pointer;
     text-transform: capitalize;
     outline: none;
-    text-shadow: 2px 0 5px #000000, -2px 0 5px #e5dddd;
+    text-shadow: 1px 1px 2px #111;
     transition: all .4s ease;
 }
 
@@ -139,5 +139,17 @@ button:hover{
     letter-spacing: 2px;
     word-spacing: 5px;
     color: #86e7f4;
-    text-shadow: 2px 0 5px #9e7979, -2px 0 5px #c36e6e, 0 2px 5px #302e2e;
+    text-shadow: 1px 0 2px #111, 2px 0 3px #6d6767;
+}
+
+
+#reload{
+    margin: 20px auto;
+    background: #e65656;
+    border: 2px solid #e65656;
+}
+
+#reload:hover{
+    background: none;
+    transform: scale(1.05);
 }

@@ -4,11 +4,12 @@ window.addEventListener('load', () => {
     const s = document.querySelector(".stop");
     const stopBtn = document.querySelector("#stopbtn");
     var audio = document.querySelector('#audio');
+    const reload = document.querySelector("#reload");
     var count = 0;
 
 
     // alert
-    const q = "Do you want to enter?\n(Click \"Ok\" if you want  \"Cancel\" if you don't)";
+    const q = "Do you want to enter?\n(Press \"Ok\" if you want  \"Cancel\" if you don't)";
     
     if (confirm(q) == true) {
         // typing script
@@ -120,8 +121,20 @@ window.addEventListener('load', () => {
             btn.innerHTML = "Show Message &#9658;";
         });
     } else {
-        alert("Try to refresh if you want to see my website and type in the question \"Yes\"")
-        document.querySelector(".msg").innerHTML = "<h4>Unfortunately, this page was not able to be loaded,<br/>still Thank you for taking the time to visit my simple webpage.</h4>";
+        document.querySelector(".msg").innerHTML = "<h4>Unfortunately, this page was not able to be loaded,<br/>still Thank you for taking the time to visit my simple webpage.</h4><br/><br/><h5>Try to press \"Reload\" and press \"Ok\".</h5>";
+
+        if (reload.classList.contains("hide")) {
+            reload.classList.add("show");
+            reload.classList.remove("hide");
+        } else {
+            reload.classList.add("hide");
+            reload.classList.remove("show");
+        }
+
+        reload.addEventListener('click', () => {
+            location.reload();
+        })
+
         return false;
     }
 });
